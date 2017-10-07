@@ -1,0 +1,41 @@
+body {
+	background-color: gray;
+	font-family: Arial, "Veranda", sans-serif;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+ul li {
+	float: left;
+	display: inline-block;
+	width: 200px;
+	height: 40px;
+	background-color: black;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+	margin-right: 2px;
+}
+
+ul li a {
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+ul li a:hover {
+	background-color: gray;
+}
+
+ul li ul li {
+	display: none;
+	border-top: 1px dashed white; /* white dashed line between link level*/
+}
+
+ul li:hover ul li {
+	display: block;
+}
